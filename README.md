@@ -62,8 +62,8 @@ $ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
  mkdir /etc/ansible 
  # Change ownership
  sudo chown ansible:ansible -R /etc/ansible 
- wget [githubusercontent](https://raw.githubusercontent.com/ansible/ansible/devel/examples/hosts)
- wget https://raw.githubusercontent.com/ansible/ansible/devel/examples/ansible.cfg
+ sudo wget https://raw.githubusercontent.com/ansible/ansible/devel/examples/hosts
+ sudo wget https://raw.githubusercontent.com/ansible/ansible/devel/examples/ansible.cfg
  
 ```
 
