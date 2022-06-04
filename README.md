@@ -33,7 +33,7 @@ sudo passwd ansible
  sudo su - ansible
  sudo yum install wget git unzip -y
  wget https://releases.hashicorp.com/terraform/1.2.2/terraform_1.2.2_linux_amd64.zip 
- sudo unzip terraform_1.2.2_linux_amd64.zip -d /usr/local/in/
+ sudo unzip terraform_1.2.2_linux_amd64.zip -d /usr/local/bin/
 # Export terraform binary path temporally
  export PATH=$PATH:/usr/local/bin
 # Add path permanently for current user.By Exporting path in .bashrc file at end of file.
