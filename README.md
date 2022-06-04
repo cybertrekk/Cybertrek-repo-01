@@ -1,5 +1,5 @@
 
-#  **<span style="color:green">Landmark Technology.</span>**
+#  **<span style="color:green">CybertrekTechnology.</span>**
 ### **<span style="color:green">Contacts: +1437215 24 83   +1 437 215 2483 <br> WebSite : <http://mylandmarktech.com/></span>**
 ### **Email: mylandmarktech@gmail.com         mylandmarktech@gmail.com**
 
@@ -31,7 +31,7 @@ sudo passwd ansible
 ##### Install terraform
 ``` sh
  sudo su - ansible
- sudo yum install wget unzip -y
+ sudo yum install wget git unzip -y
  wget https://releases.hashicorp.com/terraform/0.12.26/terraform_0.12.26_linux_amd64.zip
  sudo unzip terraform_0.12.26_linux_amd64.zip -d /usr/local/bin/
 # Export terraform binary path temporally
