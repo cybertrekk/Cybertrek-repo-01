@@ -67,7 +67,14 @@ $ curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
  sudo wget https://raw.githubusercontent.com/ansible/ansible/devel/examples/ansible.cfg
  
 ```
+### AWS CLI Installation
+Phyton needs to be installed inorder to install awscli
+create an access key and use it to configure awscli
+```
+pip3 install awscli --upgrade
+aws configure
 
+```
 #### Clone terraform and ansible scripts
 ``` sh
  git clone https://github.com/LandmakTechnology/k8s-ansible.git
